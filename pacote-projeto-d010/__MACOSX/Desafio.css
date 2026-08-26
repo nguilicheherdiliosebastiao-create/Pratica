@@ -1,0 +1,123 @@
+@font-face {
+    font-family: "minha_fonte";
+    src: url(../fontes/idroid.otf);
+}
+body{
+    background-color: #84e1ad;
+    
+    
+}
+*{
+    margin: 0px;
+}
+header{
+    background-image: linear-gradient(to top,#1a5c38, #37c878);
+    h1{
+        text-align: center;
+    }
+    p{
+        text-align: center;
+
+    }
+    color: wheat;
+    nav {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+    nav > a{
+        color: white;
+        text-decoration: none;
+        
+    }
+    padding: 5px;
+}
+nav > a:hover{
+    background-color: #37c8783d;
+}
+footer{
+    background-color: #1a5c38;
+    p{
+        text-align: center;
+        color: white;
+    }
+}
+h2, h3{
+    font-family: 'minha_fonte';
+    color: #246341;
+}
+main p{
+    padding: 10px 0px;
+    font-size: 20px;
+
+}
+main{
+    background-color: white;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 2px;
+
+    h2{
+        font-size: 25px;
+        padding: 2px;
+    }
+    h3 {
+        font-size: 20px;
+        padding: 10px;
+        background-image: linear-gradient(to left,#b9fad536, #b9fad57a , #a5eec5)
+    }
+    
+}
+img{
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+p{
+    text-indent: 2%;
+    text-align: justify;
+    padding: 15px;
+}
+#vidio{
+    display: flex;
+    justify-content: center;
+    background-color: #1a5c38;
+    padding: 2%;
+    video{
+        
+        width: 100%;
+        
+
+    }
+    
+}
+#listas {
+    
+    background-color: #c5ebd6;
+    border-radius: 0px 0px 15px 15px;
+    margin:  0px 20px 20px 20px;
+    padding: 20px;
+    box-shadow: 2px 2px 5px rgba(110, 110, 110, 0.356);
+    
+}
+section > div {
+    
+    margin:  20px 20px 0px 20px;
+    background-color: #19b961;
+    padding: 20px;
+    border-radius: 20px 20px 0px 0px;
+    color: white;
+}
+article > div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   ul{
+    padding: 0px 50px;
+   }
+}
+article{
+    padding: 20px;
+    text-indent: 10px;
+}
